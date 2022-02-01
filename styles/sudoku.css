@@ -1,0 +1,51 @@
+#board{
+    width: 585px;
+    height: 585px;
+    margin: auto;
+    justify-content: center;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+
+#board tr, #board td{
+    border: 1px solid black;
+    width: 65px;
+    height: 65px;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#board tr, #board td:nth-child(3n){
+    border-right: 3px solid black;
+}
+
+#board tr:nth-child(3n){
+    border-bottom: 3px solid black;
+}
+
+#board td:hover{
+    background: #f5dd90;
+}
+
+
+#numLine{
+    margin: auto;
+    width: 585px;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+#numLine tr, #numLine td{
+    width: 58px;
+    height: 58px;
+    font-size: 25px;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: center;
+}
+
+#numLine td:hover{
+    background: #f5dd90;
+}
