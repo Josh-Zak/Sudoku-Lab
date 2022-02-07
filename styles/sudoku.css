@@ -1,14 +1,16 @@
+/* SUDOKU PAGE */
 #board{
     width: 585px;
     height: 585px;
     margin: auto;
+    margin-top: 2.5%;
     justify-content: center;
     border: 3px solid black;
     border-collapse: collapse;
 }
 
 
-#board tr, #board td{
+#board td{
     border: 1px solid black;
     width: 65px;
     height: 65px;
@@ -29,7 +31,6 @@
     background: #f5dd90;
 }
 
-
 #numLine{
     margin: auto;
     width: 585px;
@@ -49,3 +50,33 @@
 #numLine td:hover{
     background: #f5dd90;
 }
+
+
+
+/* HIGH SCORES PAGE */
+#highScores{
+    margin: auto;
+    width: 20%;
+    font-size: larger;
+    margin-top: 5%;
+}
+
+#highScores tr:nth-child(1){
+    border-bottom: 2px solid black;
+}
+
+#highScores td, #highScores th{
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 0px;
+}
+
+
+
+/* NAV MENU */
+#toggleMobileMenu ul li a, .navbar-brand{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
