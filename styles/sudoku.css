@@ -51,6 +51,11 @@
     background: #f5dd90;
 }
 
+.invis{
+    opacity: 0;  
+}
+
+
 
 
 /* HIGH SCORES PAGE */
